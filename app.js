@@ -14,7 +14,6 @@ app.use(express.static("public"));
 // *connect db
 // mongoose.connect('mongodb://127.0.0.1:27017/todolistDB');
 //connect to remote url
-const  mongoAtlasUri = "mongodb+srv://fadlyadmin:admin123@cluster0.8kprggd.mongodb.net/?retryWrites=true&w=majority";
 
 console.log(mongoose.connection.readyState);
 
